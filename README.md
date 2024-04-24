@@ -53,7 +53,7 @@ Use the `exponent` method to get the base 10 exponent.
 Browser:
 
 ```html
-<script src='path/to/decimal.js-light'></script>
+<script type="module" src='path/to/decimal.js-light'></script>
 ```
 
 Node package manager:
