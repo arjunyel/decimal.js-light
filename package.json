@@ -20,7 +20,19 @@
     "type": "git",
     "url": "https://github.com/MikeMcl/decimal.js-light.git"
   },
-  "main": "decimal",
+  "exports": {
+	".": {
+		"import": {
+		  "types": "./decimal.d.mts",
+		  "default": "./decimal.mjs"
+		},
+		"require": {
+		  "types": "./decimal.d.ts",
+		  "default": "./decimal.js"
+		}
+	  }
+  },
+  "main": "decimal.js",
   "module": "decimal.mjs",
   "browser": "decimal.js",
   "types": "decimal.d.ts",

@@ -1,4 +1,4 @@
-export = Decimal;
+export default Decimal;
 
 export declare class Decimal {
     /**
